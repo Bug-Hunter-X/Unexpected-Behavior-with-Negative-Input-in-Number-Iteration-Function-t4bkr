@@ -1,0 +1,3 @@
+# TypeScript Bug: Unexpected Behavior with Negative Input in Number Iteration Function
+
+This repository demonstrates a common TypeScript bug related to unexpected behavior when passing negative input to a function designed to iterate from 1 to n. The provided `printNumbers` function demonstrates this issue and its solution.  The bug occurs because the for loop's condition `i <= n` will never evaluate to true if `n` is negative. The solution addresses this by adding input validation and modification of the loop.
